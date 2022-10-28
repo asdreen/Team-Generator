@@ -54,13 +54,3 @@ $("#first3").click(function () {
 });
 
 //.........assign elements
-var adjective = ["Asdren", "Kerstin", "Lidia", "Andy"];
-var object = ["Janina", "Andreas", "Vera", "Tetiana"];
-var list;
-
-function generator() {
-  document.getElementById("name").innerHTML =
-    adjective[Math.floor(Math.random() * adjective.length)] +
-    " " +
-    object[Math.floor(Math.random() * object.length)];
-}
