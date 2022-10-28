@@ -1,0 +1,156 @@
+#generator {
+  margin-left: 10em;
+  margin-top: 5em;
+}
+
+#team {
+  display: inline-block;
+}
+
+#myInput {
+  margin: 0;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  width: 135%;
+  padding: 8px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 40px;
+  background: mediumslateblue;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  height: 1.1.2.em;
+  height: 1em;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#input {
+  display: inline-table;
+  margin-left: 8.2em;
+}
+
+#first3 {
+  margin-inline: 3em;
+  background-color: mediumslateblue;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 2.8em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#first2 {
+  margin-inline: 3em;
+  background-color: mediumslateblue;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 2.8em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text {
+  margin-left: 2.5em;
+  font-weight: bold;
+}
+.text1 {
+  font-weight: bold;
+}
+
+ul {
+  margin-right: 26.7em;
+  margin-left: -2.4em;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  background: #eee;
+  font-size: 18px;
+  width: 500px;
+  height: 19px;
+  padding: 1em;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+.four {
+  background-color: mediumslateblue;
+  color: white;
+  width: 485px;
+  height: 2.5em;
+  margin-top: 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.five {
+  background-color: brown;
+  color: white;
+  border: none;
+  height: 2.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box {
+  border: 1px solid darkgray;
+  width: 170px;
+  height: 25vh;
+  margin-inline: 1em;
+  margin-left: -3em;
+  margin-top: 1em;
+}
+
+#aside {
+  display: flex;
+  margin-left: 34em;
+  margin-top: -5em;
+}
+.someText {
+  margin-top: -1.9em;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+#first {
+  text-align: center;
+  padding: 0;
+  margin-left: -3em;
+  margin-right: -3em;
+  width: 75px;
+  border: none;
+}
+
+#row-container {
+  left: 45em;
+  display: flex;
+  position: absolute;
+  top: 11em;
+}
+
+.form-control {
+  height: 15em;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+}

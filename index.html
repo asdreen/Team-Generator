@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Generator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="generator">
+      <h1>TEAM GENERATOR</h1>
+      <div id="team">
+        <p class="text1">Add Member</p>
+        <input type="text" id="myInput" placeholder="Name" />
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <div id="input">
+        <p class="text">Teams</p>
+        <input id="first3" type="submit" value="-" />
+        <input type="number" value="0" id="first" placeholder="/" />
+        <input id="first2" type="submit" value="+" />
+      </div>
+      <ul id="myUL"></ul>
+      <div>
+        <input class="four" type="submit" value="Assign Member" />
+        <input class="five" type="submit" value="Reset" />
+      </div>
+      
+
+
+      <div id="row-container">
+        <div class="row">
+            <p>Team 1</p>
+              <input type="text" class="form-control" name="size" title="/" /> 
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
