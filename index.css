@@ -149,8 +149,17 @@ ul li:hover {
 }
 
 .form-control {
-  height: 15em;
+  height: 2em;
   border-radius: 5px;
   display: inline-block;
   margin: 5px;
+  padding-bottom: 15em;
+  width: 180px;
+  border: 1px solid;
+}
+
+#name {
+  position: absolute;
+  left: 3em;
+  display: flex;
 }
