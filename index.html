@@ -4,38 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Generator</title>
+    <title>TEAM GENERATOR</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div id="generator">
+    <div class="container">
       <h1>TEAM GENERATOR</h1>
-      <div id="team">
-        <p class="text1">Add Member</p>
-        <input type="text" id="myInput" placeholder="Name" />
-        <span onclick="newElement()" class="addBtn">Add</span>
-      </div>
-      <div id="input">
-        <p class="text">Teams</p>
-        <input id="first3" type="submit" value="-" />
-        <input type="number" value="0" id="first" placeholder="/" />
-        <input id="first2" type="submit" value="+" />
-      </div>
-      <ul id="myUL"></ul>
-      <div>
-        <input onclick="generator()" class="four" type="submit" value="Assign Member" />
-        <input class="five" type="submit" value="Reset" />
-      </div>
-      
+      <div class="flex">
+        <div class="team asideFirstPart sign">
+          <div class="flex elements">
+            <div class="firstElement sign">
+              <label for="addName"><strong>Add Member</strong></label>
+              <div class="inputField">
+                <input id="addName" type="text" placeholder="Name" />
+                <button class="firstButton" onclick="addPerson(event)">
+                  Add
+                </button>
+              </div>
+            </div>
+            <div class="secondElement">
+              <label><strong>Teams</strong></label>
+              <div class="flex align-center">
+                <button title="/" class="firstButton" onclick="removeTeam()">
+                  -
+                </button>
+                <span id="numberAdd">0</span>
+                <button class="firstButton" onclick="addTeam()">+</button>
+              </div>
+            </div>
 
+            <div class="thirdElement sign">
+              <div class="alert assign" role="alert">waiting list.....</div>
+              <ul id="myUL"></ul>
+              <div class="flex">
+                <button class="secondButton firstButton" onclick="assign()">
+                  Assign Member
+                </button>
 
-      <div id="row-container">
-        <div class="row">
-            <p>Team 1</p>
-            <hr class="form-control" >   
+                <button class="reset" onclick="reset()">Reset</button>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div class="asideSecondPart asideFirstPart sign">
+          <div id="teams-row" class="flex elements"></div>
+        </div>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
